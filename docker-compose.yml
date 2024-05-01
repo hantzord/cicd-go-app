@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  cicd-go-app:
+    build: .
+    ports:
+      - 1323:1323
+    restart: on-failure
