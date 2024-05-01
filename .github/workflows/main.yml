@@ -43,7 +43,7 @@ jobs:
               with:
                   host: ${{ secrets.SSH_HOST }}
                   username: ${{ secrets.SSH_USER }}
-                  key: ${{ secrets.AWS }}
+                  key: ${{ secrets.SSH_AWS }}
                   script: |
                     cd /home/ec2-user/cicd-go-app
                     docker pull hantzord/cicd-go-app:latest
