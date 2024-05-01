@@ -47,6 +47,6 @@ jobs:
                   script: |
                     cd /home/ec2-user/cicd-go-app
                     docker pull hantzord/cicd-go-app:latest
-                    docker run -d -p 8080:8080 hantzord/cicd-go-app:latest
+                    docker run -d -p 1323:1323 hantzord/cicd-go-app:latest
 
                   

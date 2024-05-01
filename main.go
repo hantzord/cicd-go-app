@@ -9,7 +9,7 @@ import (
 func main() {
 	e := echo.New()
 	e.GET("/", func(c echo.Context) error {
-		return c.String(http.StatusOK, "Testing Docker and Golang")
+		return c.String(http.StatusOK, "Testing CICD and Golang")
 	})
-	e.Logger.Fatal(e.Start(":8080"))
+	e.Logger.Fatal(e.Start(":1323"))
 }
